@@ -1,0 +1,38 @@
+.about-me {
+    position: relative;
+    padding: 20px;
+    background-color: red;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out;
+  }
+  
+  .short-content {
+    max-height: 5em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+  }
+  
+  .full-content {
+    max-height: none;
+    overflow: visible;
+  }
+  
+  .read-more-button {
+    background: none;
+    border: none;
+    color: #007bff;
+    cursor: pointer;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    font-size: 14px;
+    transition: color 0.2s ease-in-out;
+  }
+  
+  .read-more-button:hover {
+    color: #0056b3;
+  }
+  
